@@ -1,0 +1,307 @@
+cv:
+  name: Brendan Veninga
+  headline: Staff Software Engineer
+  location: Toronto, ON, Canada
+  email: brendan@venibren.dev
+  # photo:
+  phone: +1 000-000-0000 # Override using .env
+  website: https://resume.venibren.dev/
+  social_networks:
+    - network: LinkedIn
+      username: venibren
+    - network: GitHub
+      username: venibren
+  # custom_connections:
+  sections:
+    professional_summary:
+      - Results-driven Staff Software Engineer and Team Lead with over 7 years of experience designing and delivering scalable backend systems, APIs, and microservices for high-availability environments. Demonstrated expertise in architecting resilient solutions, optimizing performance, and mentoring cross-functional teams to achieve technical excellence. Currently expanding technical depth in Python for automation and large-scale software initiatives. Committed to driving innovation, enhancing code quality, and delivering measurable business value through strong leadership and collaboration.
+    skills:
+      - label: Languages
+        details: C#, .NET 6 / 8, ASP.NET Core, Python, Javascript / TypeScript, Java
+      - label: Backend Frameworks
+        details: ASP.NET Core Web APIs, FastAPI, REST, GraphQL, SignalR, Third-party Integrations
+      - label: Security & Identity
+        details: JWT (access and refresh tokens), RBAC and policy-based authorization, MFA (TOTP, email codes, backup codes)
+      - label: Frameworks & Packages
+        details: Entity Framework Core, PyTorch, Tensorflow, Keras, Strawberry, SqlAlchemy, Alembic, Koa.js, Next.js
+      - label: Cloud & DevOps
+        details: Azure, AWS, GCP, Docker, Kubernetes, Terraform, GitHub Actions, Cloudflare, CI/CD Pipelines
+      - label: Datastores
+        details: PostgreSQL, MS SQL Server, SQLite, Redis, MongoDB, Cosmos DB, DynamoDB, Elasticsearch
+      - label: Frontend & UI/UX
+        details: Vue, React, Angular, Blazor, Telerik UI, Apache ECharts, Three.js, Lenis
+      - label: Tools
+        details: Git, Visual Studio, VS Code, DBeaver, Azure DevOps, Jira, MS Teams, Slack, GitHub Copilot, ChatGPT, Perplexity
+      - label: Methodologies
+        details: Agile (Scrum/Kanban), Waterfall
+      - label: Core Skills
+        details: Leadership, Teamwork, Communication, Problem Solving, Project Management, Software Infrastructure, Backend Development, Web Development, Strategic Planning
+    work_experience:
+      - company: SmartONE Solutions Inc.
+        position: Backend Developer & Team Lead
+        date:
+        start_date: 2023-06-04
+        end_date: 2025-08-27
+        location: Richmond Hill, ON, Canada
+        summary: Backend microservices engineer specializing in distributed systems architecture and platform engineering within a market-leading Smart Community technology organization, enabling scalable IoT capabilities across North America.
+        highlights:
+          - Led a cross-functional engineering team delivering end-to-end development, modernization, and ongoing support of mission-critical internal platforms, including onboarding automation, support tooling, diagnostic utilities, and core services infrastructure. Owned technical roadmap execution, sprint planning, delivery governance, and stakeholder alignment to improve operational efficiency, reliability, and time-to-resolution.
+          - Partnered with Product, Support, Operations, and Engineering stakeholders to elicit and validate requirements, translate business needs into actionable user stories and testable acceptance criteria, and drive solution reviews and QA/UAT processes. Ensured on-time delivery of production-ready releases through rigorous prioritization, risk management, and internal testing.
+      - company: SABS Travel Technologies / Corporate Travel Management
+        position: Software Engineer
+        date:
+        start_date: 2019-05-07
+        end_date: 2022-12-02
+        location: Manchester, United Kingdom
+        summary: Lead Backend Engineer specializing in global travel supplier integrations (Sabre, Amadeus, Travelport, Travelfusion, British Airways and Farelogix, Conferma), translating complex partner specifications into high-performance, resilient APIs that power enterprise booking and fulfillment workflows across EMEA.
+        highlights:
+          - Technical lead for Air, Hotel, and Rail supplier integrations supporting a large-scale enterprise platform rewrite, modernizing legacy Perl services into maintainable, scalable backend architecture with improved reliability, observability, and deployment practices.
+          - Re-architected and relaunched a dormant ASP.NET and React application integrated with Sabre, enabling streamlined itinerary approvals and automated Passenger Name Record updates, improving operational throughput and reducing manual processing.
+          - Delivered Umbrella Sync integration to unify client and user identity management across SABSTT tooling, strengthening access governance, data consistency, and cross-system interoperability.
+          - Built and optimized airport and rail search capabilities using Elasticsearch, implementing relevance tuning via weighted scoring and frequency-based categorization to improve result quality, latency, and user experience.
+          - Introduced and productized a Travel Risk Alerts API, initially supporting COVID-era travel regulation intelligence and later expanded to surface real-time disruption and safety advisories, improving traveler awareness and reducing support escalations.
+      - company: Freelance / Self-Employed
+        position: Full-Stack Developer
+        date:
+        start_date: 2018-01
+        end_date: 2019-01-10
+        location: Toronto, ON, Canada
+        summary: Independent full-stack developer delivering end-to-end solutions from discovery through UX, build, testing, deployment, and handover. Translated customer needs into clear specs and roadmaps, ran iterative demos, and shipped 6 custom solutions on time and within budget.
+        highlights:
+          - Delivered 6 end-to-end solutions as an independent full-stack developer, from discovery through build, test, deploy, and handover.
+          - Turned customer needs into clear specs and roadmaps, aligning scope, priorities, and delivery milestones.
+          - Ran iterative demos and incorporated feedback quickly to keep projects on track and within budget.
+      - company: Central Lake Ontario Conservation Authority
+        position: Full-Stack Developer Intern
+        date:
+        start_date: 2018-04
+        end_date: 2018-07
+        location: Oshawa, ON, Canada
+        summary: Intern backend developer who improved .NET API performance for large datasets (pagination and LINQ) and built a real-time metrics dashboard using SignalR and Telerik UI to support customer service operations.
+        highlights:
+          - Improved .NET API responsiveness by optimizing LINQ queries and implementing pagination for large datasets.
+          - Built a real-time operational metrics dashboard using SignalR and Telerik UI.
+    projects:
+      - name: "[FastAPI Playground Boilerplate](https://github.com/venibren/py-fastapi)"
+        date:
+        start_date: 2025-11
+        end_date: present
+        location:
+        summary: FastAPI starter for experimenting with REST and GraphQL routing, featuring auto-discovered modules, versioned API prefixes, and structured logging.
+        highlights:
+          - Implemented auto-discovery for REST and GraphQL modules with versioned REST to keep routing modular and scalable.
+          - Built a unified Strawberry GraphQL schema that composes root modules when present, enabling hybrid REST plus GraphQL APIs.
+          - Added rich, configurable logging with custom VERBOSE and SILLY log levels to improve debugging and observability during development.
+          - Centralized configuration using environment variables and pydantic-settings, including CORS controls for safer local and multi-origin testing.
+      - name: "[ASP.NET Core Web Api Boilerplate](https://github.com/venibren/aspnetcore-api)"
+        date:
+        start_date: 2025-05
+        end_date: present
+        location:
+        summary: Compact .NET 8 ASP.NET Core Web API starter with custom auth (RBAC policies), JWT access/refresh tokens, and MFA (TOTP, email, backup codes), built as an extensible alternative to default Identity scaffolding.
+        highlights:
+          - Built a modular, multi-project solution with clean separation between API, auth, middleware, data, and services.
+          - Implemented custom user model and RBAC-style authorization policies for flexible access control.
+          - Delivered JWT authentication with refresh token workflow for stateless API security.
+          - Added MFA flows (TOTP, email codes, backup codes) to harden account security.
+          - Integrated PostgreSQL and MongoDB persistence patterns for identity and application data.
+    education:
+      - institution: Durham College
+        area: Computer Programmer Analyst
+        degree: AAS
+        date:
+        start_date: 2015-09
+        end_date: 2018-05
+        location: Oshawa, ON, Canada
+        summary: Coursework focused on core software engineering fundamentals, backend development, and scalable systems design.
+        highlights:
+          - Data Structures and Algorithms
+          - API Design and Development (RESTful Web Services, SOAP)
+          - Relational Database Design (SQL, normalization, and query optimization fundamentals)
+          - Cloud Computing Fundamentals (core infrastructure and deployment concepts)
+          - Distributed Systems Concepts (scalability, reliability, and service communication basics)
+          - Software Development Life Cycle (SDLC) fundamentals (requirements, design, implementation, testing, deployment)
+          - Debugging and Troubleshooting (logging, root-cause analysis, and defect resolution)
+    references:
+      - name: References available upon request.
+design:
+  theme: classic
+  page:
+    size: us-letter
+    top_margin: 0.5in
+    bottom_margin: 0.5in
+    left_margin: 0.5in
+    right_margin: 0.5in
+    show_footer: true
+    show_top_note: true
+  colors:
+    body: rgb(0, 0, 0)
+    name: rgb(34 51 59)
+    headline: rgb(34 51 59)
+    connections: rgb(34 51 59)
+    section_titles: rgb(34 51 59)
+    links: rgb(34 51 59)
+    footer: rgb(60 110 113)
+    top_note: rgb(60 110 113)
+  typography:
+    line_spacing: 0.5em
+    alignment: justified
+    date_and_location_column_alignment: right
+    font_family:
+      body: Calibri
+      name: Calibri
+      headline: Calibri
+      connections: Calibri
+      section_titles: Calibri
+    font_size:
+      body: 10pt
+      name: 32pt
+      headline: 18pt
+      connections: 10pt
+      section_titles: 14pt
+    small_caps:
+      name: true
+      headline: true
+      connections: false
+      section_titles: true
+    bold:
+      name: true
+      headline: true
+      connections: false
+      section_titles: true
+  # links:
+  #   underline: false
+  #   show_external_link_icon: false
+  header:
+    alignment: center
+    # photo_width: 3.5cm
+    # photo_position: left
+    # photo_space_left: 0.4cm
+    # photo_space_right: 0.4cm
+    space_below_name: 0.31em
+    space_below_headline: 1cm
+    space_below_connections: 0.35cm
+    connections:
+      phone_number_format: international
+      hyperlink: true
+      show_icons: true
+      display_urls_instead_of_usernames: false
+      # separator: ""
+      space_between_connections: 0.4cm # <--------- Edit this value for the connections width
+  section_titles:
+    type: with_partial_line
+    line_thickness: 0.75pt
+    space_above: 0.5cm
+    space_below: 0.25cm
+  # sections:
+  #   allow_page_break: true
+  #   space_between_regular_entries: 1.25em
+  #   space_between_text_based_entries: 0.25em
+  #   show_time_spans_in:
+  #     - experience
+  # entries:
+  #   date_and_location_width: 4.15cm
+  #   side_space: 0.2cm
+  #   space_between_columns: 0.1cm
+  #   allow_page_break: false
+  #   short_second_row: true
+  #   summary:
+  #     space_above: 0cm
+  #     space_left: 0cm
+  #   highlights:
+  #     bullet: •
+  #     nested_bullet: •
+  #     space_left: 0.15cm
+  #     space_above: 0cm
+  #     space_between_items: 0cm
+  #     space_between_bullet_and_text: 0.5em
+  templates:
+    footer: "*NAME | PAGE_NUMBER of TOTAL_PAGES*"
+    #   top_note: '*LAST_UPDATED CURRENT_DATE*'
+    #   single_date: MONTH_ABBREVIATION YEAR
+    date_range: START_DATE - END_DATE
+  #   time_span: HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS
+  #   one_line_entry:
+  #     main_column: '**LABEL:** DETAILS'
+  #   education_entry:
+  #     main_column: |-
+  #       **INSTITUTION**, AREA
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     degree_column: '**DEGREE**'
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   normal_entry:
+  #     main_column: |-
+  #       **NAME**
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   experience_entry:
+  #     main_column: |-
+  #       **COMPANY**, POSITION
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   publication_entry:
+  #     main_column: |-
+  #       **TITLE**
+  #       SUMMARY
+  #       AUTHORS
+  #       URL (JOURNAL)
+  #     date_and_location_column: DATE
+locale:
+  language: english
+  last_updated: Last updated
+  # month: month
+  # months: months
+  # year: year
+  # years: years
+  present: Present
+  # month_abbreviations:
+  #   - Jan.
+  #   - Feb.
+  #   - Mar.
+  #   - Apr.
+  #   - May.
+  #   - Jun.
+  #   - Jul.
+  #   - Aug.
+  #   - Sept.
+  #   - Oct.
+  #   - Nov.
+  #   - Dec.
+  # month_names:
+  #   - January
+  #   - February
+  #   - March
+  #   - April
+  #   - May
+  #   - June
+  #   - July
+  #   - August
+  #   - September
+  #   - October
+  #   - November
+  #   - December
+settings:
+  current_date: "2025-08-27"
+  render_command:
+    design:
+    locale:
+    typst_path: output\NAME_IN_SNAKE_CASE_Resume.typ
+    pdf_path: output\NAME_IN_SNAKE_CASE_Resume.pdf
+    # markdown_path: output\NAME_IN_SNAKE_CASE_Resume.md
+    # html_path: output\NAME_IN_SNAKE_CASE_Resume.html
+    # png_path: output\NAME_IN_SNAKE_CASE_Resume.png
+    dont_generate_markdown: true
+    dont_generate_html: true
+    # dont_generate_typst: false
+    # dont_generate_pdf: false
+    dont_generate_png: true
+  bold_keywords: []

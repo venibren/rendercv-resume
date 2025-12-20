@@ -1,0 +1,9 @@
+[project]
+name = "rendercv-resume"
+version = "1.0.0"
+description = "This repo stores my resume as a single RenderCV YAML file and builds a PDF from it."
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "rendercv[full]>=2.5",
+]

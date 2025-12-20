@@ -1,0 +1,24 @@
+LICENSE
+
+Copyright (c) 2025 Brendan Veninga
+
+This repository uses RenderCV (a public tool) to build a resume from a YAML file.
+
+Resume content
+The information and text in the resume YAML and any generated outputs (PDF/HTML/Markdown/etc.) are my personal content and are not licensed for reuse.
+
+You may:
+
+- View and download the resume for evaluation (for example, hiring or reference)
+- Fork this repo and make changes for the purpose of proposing edits back to me (pull requests)
+
+You may not:
+
+- Copy, reuse, republish, or redistribute the resume content (in whole or in part) as your own
+- Use the resume content to create your own resume, portfolio, bio, or similar materials
+
+Everything else
+Any non-resume files in this repository (for example: build instructions, config, CI) may be reused unless a file says otherwise.
+
+No warranty
+This repository is provided "AS IS", without warranties or conditions of any kind.
