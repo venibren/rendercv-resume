@@ -2,23 +2,53 @@ LICENSE
 
 Copyright (c) 2025 Brendan Veninga
 
+Summary
+This repository contains:
+
+1) Resume Content (restricted) - my personal resume text/data
+2) Repository Code and Structure (permitted) - everything else used to build and publish the resume
+
 This repository uses RenderCV (a public tool) to build a resume from a YAML file.
 
-Resume content
-The information and text in the resume YAML and any generated outputs (PDF/HTML/Markdown/etc.) are my personal content and are not licensed for reuse.
+1. Resume Content (All Rights Reserved)
+The following are "Resume Content":
+
+- The resume YAML content (text, data, phrasing, bullets, descriptions)
+- Any generated outputs that contain that content (PDF, HTML, Markdown, images, etc.)
+- Any other files that are clearly personal resume content
+
+Resume Content is not licensed for reuse. All rights are reserved.
 
 You may:
 
-- View and download the resume for evaluation (for example, hiring or reference)
-- Fork this repo and make changes for the purpose of proposing edits back to me (pull requests)
+- View and download the Resume Content for evaluation purposes (for example hiring, reference, or recruiting)
+- Fork this repository to propose changes back to me via pull request, but only to edit my Resume Content for my benefit
 
 You may not:
 
-- Copy, reuse, republish, or redistribute the resume content (in whole or in part) as your own
-- Use the resume content to create your own resume, portfolio, bio, or similar materials
+- Copy, reuse, republish, redistribute, or sell the Resume Content (in whole or in part)
+- Use the Resume Content to create or improve your own resume, portfolio, bio, or similar materials
+- Train or fine-tune a model primarily on the Resume Content or use it as a template for generating substantially similar resume text
 
-Everything else
-Any non-resume files in this repository (for example: build instructions, config, CI) may be reused unless a file says otherwise.
+1. Repository Code and Structure (Permissive Use)
+Everything in this repository that is not Resume Content is "Repository Code and Structure". This includes, for example:
 
-No warranty
-This repository is provided "AS IS", without warranties or conditions of any kind.
+- Build scripts, automation, CI/CD workflows, configuration, templates, tooling glue code
+- Folder layout, repo structure, and documentation about how to build and publish
+- Any helper code used to run RenderCV or generate outputs
+
+You may:
+
+- Fork, copy, modify, and reuse the Repository Code and Structure for any purpose, including building your own resume builder
+- Publish your fork, including as a template or starter repository, as long as you do not include the Resume Content
+- Distribute your modified versions of the Repository Code and Structure under your own terms
+
+Condition:
+
+- You must remove and replace all Resume Content with your own before publishing or redistributing a fork or derivative repository.
+
+1. No Warranty
+This repository is provided "AS IS", without warranties or conditions of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, and noninfringement.
+
+2. Notes
+RenderCV is a third-party tool and is subject to its own license and terms. This LICENSE does not grant any rights to RenderCV itself.
