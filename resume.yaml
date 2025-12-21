@@ -16,26 +16,31 @@ cv:
     professional_summary:
       - Results-driven Staff Software Engineer and Team Lead with over 7 years of experience designing and delivering scalable backend systems, APIs, and microservices for high-availability environments. Demonstrated expertise in architecting resilient solutions, optimizing performance, and mentoring cross-functional teams to achieve technical excellence. Currently expanding technical depth in Python for automation and large-scale software initiatives. Committed to driving innovation, enhancing code quality, and delivering measurable business value through strong leadership and collaboration.
     skills:
-      - label: Languages
-        details: C#, .NET 6 / 8, ASP.NET Core, Python, Javascript / TypeScript, Java
-      - label: Backend Frameworks
-        details: ASP.NET Core Web APIs, FastAPI, REST, GraphQL, SignalR, Third-party Integrations
+      - label: Programming Languages
+        details: C#, Python, Javascript, TypeScript, C++, Java
+      - label: Backend & API Development
+        details: .NET 6/8, ASP.NET Core, FastAPI, Django, Flask, REST, GraphQL, gRPC, WebSocket, SignalR, API Gateway, Third-Party Integrations
+      - label: Architecture & Design
+        details: Microservices, Distributed Systems, SOLID, OOP, System Design, Scalability
       - label: Security & Identity
-        details: JWT (access and refresh tokens), RBAC and policy-based authorization, MFA (TOTP, email codes, backup codes)
-      - label: Frameworks & Packages
-        details: Entity Framework Core, PyTorch, Tensorflow, Keras, Strawberry, SqlAlchemy, Alembic, Koa.js, Next.js
+        details: OAuth 2.0, JWT, RBAC, Policy-Based Authorization, MFA, Azure AD
       - label: Cloud & DevOps
-        details: Azure, AWS, GCP, Docker, Kubernetes, Terraform, GitHub Actions, Cloudflare, CI/CD Pipelines
-      - label: Datastores
-        details: PostgreSQL, MS SQL Server, SQLite, Redis, MongoDB, Cosmos DB, DynamoDB, Elasticsearch
-      - label: Frontend & UI/UX
-        details: Vue, React, Angular, Blazor, Telerik UI, Apache ECharts, Three.js, Lenis
-      - label: Tools
-        details: Git, Visual Studio, VS Code, DBeaver, Azure DevOps, Jira, MS Teams, Slack, GitHub Copilot, ChatGPT, Perplexity
-      - label: Methodologies
-        details: Agile (Scrum/Kanban), Waterfall
-      - label: Core Skills
-        details: Leadership, Teamwork, Communication, Problem Solving, Project Management, Software Infrastructure, Backend Development, Web Development, Strategic Planning
+        details: Azure, AWS, GCP, Docker, Kubernetes, Terraform, CI/CD, GitHub Actions, Cloudflare, AWS Lambda
+      - label: Observability & Monitoring
+        details: OpenTelemetry, Datadog, AWS CloudWatch, OpenObserve, Logging, Metrics, Tracing, Alerting
+      - label: Messaging & Eventing
+        details: RabbitMQ, Azure Service Bus, AWS SQS, AWS SNS, Event-Driven Architecture
+      - label: Databases & Caching
+        details: PostgreSQL, Microsoft SQL Server, Redis, MongoDB, Elasticsearch, Cosmos DB, DynamoDB, SQLite
+      - label: Frontend
+        details: React, Vue, Angular, Next.js, Blazor
+      - label: Data & ML Libraries
+        details: PyTorch, TensorFlow, Keras
+      - label: Testing & Quality
+        details: Test Driven Development (TDD), Unit Testing, Integration Testing, Automated Testing
+      - label: Developer Tools
+        details: Git, Visual Studio, VS Code, Azure DevOps, Jira, DBeaver, Azure Data Studio, PowerBI
+
     work_experience:
       - company: SmartONE Solutions Inc.
         position: Backend Developer & Team Lead
@@ -53,7 +58,7 @@ cv:
         start_date: 2019-05-07
         end_date: 2022-12-02
         location: Manchester, United Kingdom
-        summary: Lead Backend Engineer specializing in global travel supplier integrations (Sabre, Amadeus, Travelport, Travelfusion, British Airways and Farelogix, Conferma), translating complex partner specifications into high-performance, resilient APIs that power enterprise booking and fulfillment workflows across EMEA.
+        summary: Lead Backend Engineer specializing in global travel supplier integrations (Sabre, Amadeus, Travelport, Travelfusion, British Airways and Farelogix, Conferma), translating complex specifications into high-performance, resilient APIs that power enterprise booking and fulfillment workflows across EMEA.
         highlights:
           - Technical lead for Air, Hotel, and Rail supplier integrations supporting a large-scale enterprise platform rewrite, modernizing legacy Perl services into maintainable, scalable backend architecture with improved reliability, observability, and deployment practices.
           - Re-architected and relaunched a dormant ASP.NET and React application integrated with Sabre, enabling streamlined itinerary approvals and automated Passenger Name Record updates, improving operational throughput and reducing manual processing.
@@ -91,7 +96,6 @@ cv:
         highlights:
           - Implemented auto-discovery for REST and GraphQL modules with versioned REST to keep routing modular and scalable.
           - Built a unified Strawberry GraphQL schema that composes root modules when present, enabling hybrid REST plus GraphQL APIs.
-          - Added rich, configurable logging with custom VERBOSE and SILLY log levels to improve debugging and observability during development.
           - Centralized configuration using environment variables and pydantic-settings, including CORS controls for safer local and multi-origin testing.
       - name: "[ASP.NET Core Web Api Boilerplate](https://github.com/venibren/aspnetcore-api)"
         date:
@@ -128,10 +132,10 @@ design:
   theme: classic
   page:
     size: us-letter
-    top_margin: 0.5in
-    bottom_margin: 0.5in
-    left_margin: 0.5in
-    right_margin: 0.5in
+    top_margin: 0.4in
+    bottom_margin: 0.4in
+    left_margin: 0.6in
+    right_margin: 0.6in
     show_footer: true
     show_top_note: true
   colors:
@@ -156,8 +160,8 @@ design:
     font_size:
       body: 10pt
       name: 32pt
-      headline: 18pt
-      connections: 10pt
+      headline: 16pt
+      connections: 9pt
       section_titles: 14pt
     small_caps:
       name: true
@@ -178,32 +182,32 @@ design:
     # photo_position: left
     # photo_space_left: 0.4cm
     # photo_space_right: 0.4cm
-    space_below_name: 0.31em
-    space_below_headline: 1cm
-    space_below_connections: 0.35cm
+    space_below_name: 0.25em
+    space_below_headline: 0.5cm
+    space_below_connections: 0.3cm
     connections:
       phone_number_format: international
       hyperlink: true
       show_icons: true
       display_urls_instead_of_usernames: false
       # separator: ""
-      space_between_connections: 0.4cm # <--------- Edit this value for the connections width
+      space_between_connections: 0.5cm # <--------- Edit this value for the connections width
   section_titles:
     type: with_partial_line
     line_thickness: 0.75pt
-    space_above: 0.5cm
-    space_below: 0.25cm
+    space_above: 0.4cm
+    space_below: 0.2cm
   # sections:
   #   allow_page_break: true
   #   space_between_regular_entries: 1.25em
   #   space_between_text_based_entries: 0.25em
   #   show_time_spans_in:
   #     - experience
-  # entries:
-  #   date_and_location_width: 4.15cm
-  #   side_space: 0.2cm
-  #   space_between_columns: 0.1cm
-  #   allow_page_break: false
+  entries:
+    #   date_and_location_width: 4.15cm
+    side_space: 0cm
+    space_between_columns: 0.2cm
+    allow_page_break: true
   #   short_second_row: true
   #   summary:
   #     space_above: 0cm
