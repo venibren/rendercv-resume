@@ -1,45 +1,43 @@
 cv:
   name: Brendan Veninga
-  headline: Staff Software Engineer
+  headline: Senior Software Engineer
   location: Toronto, ON, Canada
   email: brendan@venibren.dev
-  # photo:
-  phone: +1 000-000-0000 # Override using .env
-  website: https://resume.venibren.dev/
+  phone: +1 000-000-0000
   social_networks:
     - network: LinkedIn
       username: venibren
     - network: GitHub
       username: venibren
-  # custom_connections:
   sections:
     professional_summary:
-      - Results-driven Staff Software Engineer and Team Lead with over 7 years of experience designing and delivering scalable backend systems, APIs, and microservices for high-availability environments. Demonstrated expertise in architecting resilient solutions, optimizing performance, and mentoring cross-functional teams to achieve technical excellence. Currently expanding technical depth in Python for automation and large-scale software initiatives. Committed to driving innovation, enhancing code quality, and delivering measurable business value through strong leadership and collaboration.
+      - Senior Software Engineer with 7+ years building scalable backend systems, APIs, and microservices in high-availability e-commerce and enterprise environments. Strong .NET/C# and distributed systems experience, focused on performance, reliability, and maintainable architecture. I take ownership of complex work end to end - from design and implementation to release and production support. I collaborate closely with stakeholders and teammates to keep delivery predictable and high quality. Experienced mentoring teammates through code reviews and sharing practical standards that help the team move faster without sacrificing stability. #Currently expanding into Python for automation and large-scale initiatives.
+
     skills:
-      - label: Programming Languages
-        details: C#, Python, Javascript, TypeScript, C++, Java
-      - label: Backend & API Development
-        details: .NET 6/8, ASP.NET Core, FastAPI, Django, Flask, REST, GraphQL, gRPC, WebSocket, SignalR, API Gateway, Third-Party Integrations
-      - label: Architecture & Design
-        details: Microservices, Distributed Systems, SOLID, OOP, System Design, Scalability
-      - label: Security & Identity
+      - label: Languages
+        details: C#, Python, Javascript / TypeScript, Java, C++, GO
+      - label: Backend
+        details: .NET 8, ASP.NET Core, Node.js, Express.js, FastAPI, Django / Flask, Spring Boot, REST APIs, GraphQL, gRPC, WebSocket, SignalR, API Gateway
+      - label: Architecture
+        details: Microservices, Distributed Systems, System Design, Scalability, SOLID, OOP, Data Architecture, Data Modeling
+      - label: Security
         details: OAuth 2.0, JWT, RBAC, Policy-Based Authorization, MFA, Azure AD
-      - label: Cloud & DevOps
-        details: Azure, AWS, GCP, Docker, Kubernetes, Terraform, CI/CD, GitHub Actions, Cloudflare, AWS Lambda
-      - label: Observability & Monitoring
-        details: OpenTelemetry, Datadog, AWS CloudWatch, OpenObserve, Logging, Metrics, Tracing, Alerting
-      - label: Messaging & Eventing
-        details: RabbitMQ, Azure Service Bus, AWS SQS, AWS SNS, Event-Driven Architecture
-      - label: Databases & Caching
-        details: PostgreSQL, Microsoft SQL Server, Redis, MongoDB, Elasticsearch, Cosmos DB, DynamoDB, SQLite
+      - label: Cloud/DevOps
+        details: Azure, AWS, GCP, Docker, Kubernetes, Terraform, CI/CD, Jenkins, GitHub Actions, Azure Functions, AWS Lambdas
+      - label: Observability
+        details: OpenTelemetry, Datadog, CloudWatch, OpenObserve, Logging, Metrics, Tracing, Performance Tuning
+      # - label: Messaging
+      #   details: RabbitMQ, Azure Service Bus, AWS SQS/SNS, Message Queues, Event-Driven Architecture
+      - label: Data
+        details: PostgreSQL, MySQL, SQL Server, Redis, MongoDB, Elasticsearch, Cosmos DB, DynamoDB, SQLite
       - label: Frontend
-        details: React, Vue, Angular, Next.js, Blazor
-      - label: Data & ML Libraries
-        details: PyTorch, TensorFlow, Keras
-      - label: Testing & Quality
-        details: Test Driven Development (TDD), Unit Testing, Integration Testing, Automated Testing
-      - label: Developer Tools
-        details: Git, Visual Studio, VS Code, Azure DevOps, Jira, DBeaver, Azure Data Studio, PowerBI
+        details: Vue, React, Angular, Next.js, Blazor, Ionic
+      - label: AI/ML
+        details: PyTorch, TensorFlow, Keras, OpenAI, Perplexity
+      - label: Testing
+        details: xUnit, PyTest, Jest, TDD, Integration, Automated Testing
+      - label: Tools
+        details: Git, Visual Studio, VS Code, Azure DevOps, Jira, Azure Data Studio, Power BI
 
     work_experience:
       - company: SmartONE Solutions Inc.
@@ -51,20 +49,24 @@ cv:
         summary: Backend microservices engineer specializing in distributed systems architecture and platform engineering within a market-leading Smart Community technology organization, enabling scalable IoT capabilities across North America.
         highlights:
           - Led a cross-functional engineering team delivering end-to-end development, modernization, and ongoing support of mission-critical internal platforms, including onboarding automation, support tooling, diagnostic utilities, and core services infrastructure. Owned technical roadmap execution, sprint planning, delivery governance, and stakeholder alignment to improve operational efficiency, reliability, and time-to-resolution.
-          - Partnered with Product, Support, Operations, and Engineering stakeholders to elicit and validate requirements, translate business needs into actionable user stories and testable acceptance criteria, and drive solution reviews and QA/UAT processes. Ensured on-time delivery of production-ready releases through rigorous prioritization, risk management, and internal testing.
+          - Rebuilt and revitalized a mission-critical internal tool used for onboarding, support workflows, diagnostics, and platform maintenance, delivering iterative improvements alongside a small team I mentored through pairing, reviews, and technical guidance.
+          - Developed and maintained multiple production APIs across the platform, including authentication and authorization services and smart-device service capabilities supporting reliable device operations and integrations.
+          - Partnered with DevOps to implement and improve observability and performance monitoring, integrating Datadog and CloudWatch telemetry to improve diagnostics, visibility, and operational response.
+
       - company: SABS Travel Technologies / Corporate Travel Management
         position: Software Engineer
         date:
         start_date: 2019-05-07
         end_date: 2022-12-02
         location: Manchester, United Kingdom
-        summary: Lead Backend Engineer specializing in global travel supplier integrations (Sabre, Amadeus, Travelport, Travelfusion, British Airways and Farelogix, Conferma), translating complex specifications into high-performance, resilient APIs that power enterprise booking and fulfillment workflows across EMEA.
+        summary: Backend Engineer specializing in global travel supplier integrations (Sabre, Amadeus, Travelport, Travelfusion, British Airways and Farelogix, Conferma), translating complex specifications into high-performance, resilient APIs that power enterprise booking and fulfillment workflows across EMEA.
         highlights:
           - Technical lead for Air, Hotel, and Rail supplier integrations supporting a large-scale enterprise platform rewrite, modernizing legacy Perl services into maintainable, scalable backend architecture with improved reliability, observability, and deployment practices.
           - Re-architected and relaunched a dormant ASP.NET and React application integrated with Sabre, enabling streamlined itinerary approvals and automated Passenger Name Record updates, improving operational throughput and reducing manual processing.
           - Delivered Umbrella Sync integration to unify client and user identity management across SABSTT tooling, strengthening access governance, data consistency, and cross-system interoperability.
           - Built and optimized airport and rail search capabilities using Elasticsearch, implementing relevance tuning via weighted scoring and frequency-based categorization to improve result quality, latency, and user experience.
           - Introduced and productized a Travel Risk Alerts API, initially supporting COVID-era travel regulation intelligence and later expanded to surface real-time disruption and safety advisories, improving traveler awareness and reducing support escalations.
+
       - company: Freelance / Self-Employed
         position: Full-Stack Developer
         date:
@@ -76,6 +78,7 @@ cv:
           - Delivered 6 end-to-end solutions as an independent full-stack developer, from discovery through build, test, deploy, and handover.
           - Turned customer needs into clear specs and roadmaps, aligning scope, priorities, and delivery milestones.
           - Ran iterative demos and incorporated feedback quickly to keep projects on track and within budget.
+
       - company: Central Lake Ontario Conservation Authority
         position: Full-Stack Developer Intern
         date:
@@ -86,17 +89,8 @@ cv:
         highlights:
           - Improved .NET API responsiveness by optimizing LINQ queries and implementing pagination for large datasets.
           - Built a real-time operational metrics dashboard using SignalR and Telerik UI.
+
     projects:
-      - name: "[FastAPI Playground Boilerplate](https://github.com/venibren/py-fastapi)"
-        date:
-        start_date: 2025-11
-        end_date: present
-        location:
-        summary: FastAPI starter for experimenting with REST and GraphQL routing, featuring auto-discovered modules, versioned API prefixes, and structured logging.
-        highlights:
-          - Implemented auto-discovery for REST and GraphQL modules with versioned REST to keep routing modular and scalable.
-          - Built a unified Strawberry GraphQL schema that composes root modules when present, enabling hybrid REST plus GraphQL APIs.
-          - Centralized configuration using environment variables and pydantic-settings, including CORS controls for safer local and multi-origin testing.
       - name: "[ASP.NET Core Web Api Boilerplate](https://github.com/venibren/aspnetcore-api)"
         date:
         start_date: 2025-05
@@ -109,6 +103,17 @@ cv:
           - Delivered JWT authentication with refresh token workflow for stateless API security.
           - Added MFA flows (TOTP, email codes, backup codes) to harden account security.
           - Integrated PostgreSQL and MongoDB persistence patterns for identity and application data.
+      - name: "[FastAPI Playground Boilerplate](https://github.com/venibren/py-fastapi)"
+        date:
+        start_date: 2025-11
+        end_date: present
+        location:
+        summary: FastAPI starter for experimenting with REST and GraphQL routing, featuring auto-discovered modules, versioned API prefixes, and structured logging.
+        highlights:
+          - Implemented auto-discovery for REST and GraphQL modules with versioned REST to keep routing modular and scalable.
+          - Built a unified Strawberry GraphQL schema that composes root modules when present, enabling hybrid REST plus GraphQL APIs.
+          - Centralized configuration using environment variables and pydantic-settings, including CORS controls for safer local and multi-origin testing.
+
     education:
       - institution: Durham College
         area: Computer Programmer Analyst
@@ -120,12 +125,12 @@ cv:
         summary: Coursework focused on core software engineering fundamentals, backend development, and scalable systems design.
         highlights:
           - Data Structures and Algorithms
-          - API Design and Development (RESTful Web Services, SOAP)
-          - Relational Database Design (SQL, normalization, and query optimization fundamentals)
-          - Cloud Computing Fundamentals (core infrastructure and deployment concepts)
-          - Distributed Systems Concepts (scalability, reliability, and service communication basics)
-          - Software Development Life Cycle (SDLC) fundamentals (requirements, design, implementation, testing, deployment)
-          - Debugging and Troubleshooting (logging, root-cause analysis, and defect resolution)
+          - API Design and Development
+          - Relational Database Design
+          - Cloud Computing Fundamentals
+          - Distributed Systems Concepts
+          - Software Development Life Cycle (SDLC) fundamentals
+          - Debugging and Troubleshooting
     references:
       - name: References available upon request.
 design:
@@ -183,7 +188,7 @@ design:
     # photo_space_left: 0.4cm
     # photo_space_right: 0.4cm
     space_below_name: 0.25em
-    space_below_headline: 0.5cm
+    space_below_headline: 1cm
     space_below_connections: 0.3cm
     connections:
       phone_number_format: international
